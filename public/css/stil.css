@@ -1,0 +1,59 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#vsebina {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#kanal {
+  background-color: #FFFF99;
+  margin-bottom: 1em;
+}
+
+#sporocila {
+  width: 84%;
+  height: 300px;
+  overflow: auto;
+  background-color: #FFFFCC;
+  margin-bottom: 1em;
+  margin-right: 10px;
+}
+
+#seznam-kanalov, #seznam-uporabnikov {
+  float: right;
+  width: 100%;
+  height: 150px;
+  overflow: auto;
+}
+
+#seznam {
+  float: right;
+  width: 15%;
+}
+
+#seznam-kanalov div {
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+#seznam-kanalov div:hover {
+  background-color: #ddd;
+}
+
+#poslji-sporocilo {
+  width: 700px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+#pomoc {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}

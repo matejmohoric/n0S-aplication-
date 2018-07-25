@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='sl'>
+
+<head>
+  <title>OIS klepetalnica</title>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='/css/stil.css'></link>
+  
+  <script src='/socket.io/socket.io.js' type='text/javascript'></script>
+  <script src='https://code.jquery.com/jquery-3.1.1.min.js' type='text/javascript'></script>
+  <script src='/js/klepet.js' type='text/javascript'></script>
+  <script src='/js/klepet_UI.js' type='text/javascript'></script>
+</head>
+
+<body>
+  <div id='vsebina'>                  <!-- Vsebina spletne klepetalnice -->
+    <div id='kanal'></div>            <!-- Trenutni kanal -->
+    <div id='seznam'>
+      <div id='seznam-kanalov'></div>     <!-- Seznam vseh kanalov -->
+      <div id='seznam-uporabnikov'></div> <!-- Seznam uporabnikov kanala -->
+    </div>
+    <div id='sporocila'></div>
+  
+    <form id='poslji-obrazec'>
+      <input id='poslji-sporocilo' autocomplete='off' /> <!-- Vnosno polje za sporočila -->
+      <input id='poslji-gumb' type='submit' value='Pošlji'/>
+  
+      <div id='pomoc'>
+        Ukazi za klepet:
+        <ul>
+          <li>Sprememba vzdevka: <code>/vzdevek [vzdevek]</code></li>
+          <li>Pridružitev/kreiranje kanala: <code>/pridruzitev [ime kanala]</code></li>
+
+
+          <li>Pošiljanje zasebnega sporočila: <code>/zasebno "[vzdevek1],[vzdevek2]" "[sporočilo]"</code></li>
+          <li>Spreminjanje barve pisave: <code>/barva [barva]</code></li>
+
+
+          
+
+        </ul>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
