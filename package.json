@@ -1,0 +1,10 @@
+{
+    "name": "klepetalnica",
+    "version": "0.0.1",
+    "description": "Okrnjena različica klepetalnice z več klepeti",
+    "dependencies": {
+        "socket.io": "latest",
+        "mime-types": "latest"
+    },
+    "private": true
+}
